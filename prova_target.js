@@ -74,6 +74,10 @@ const imprimeSoma = () => {
 //Como você faria para descobrir, usando apenas duas idas até uma das salas das lâmpadas, qual interruptor controla cada lâmpada?
 
 //Resposta:
+//ligo o interruptor do meio e vou pra sala do meio, caso ele esteja ligado é só eu ligar qualquer uma das outras duas e a última
+//eu consigo descobrir por exclusão.
+//caso eu ligue o interruptor do meio e não seja a lampada do meio, é só eu ligar outra e vai sobrar só a última que também da para descobrir
+//por exclusão
 
 //LOGS
 console.log(
